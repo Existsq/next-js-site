@@ -22,7 +22,7 @@ interface cardInfo {
 const ReviewCard: React.FC<cardInfo> = ({ text, avatar, subtext, color }) => {
   return (
     <div
-      className={`flex flex-col items-start space-y-10 size-fit bg-[#D8FFD8] rounded-2xl p-6`}
+      className={`flex flex-col items-start space-y-10 md:px-10 md:py-10 size-fit bg-[#D8FFD8] max-w-[550px] rounded-2xl p-6`}
     >
       <div className={vietnam.className}>
         <p className="text-[#033BAD] font-normal text-2xl">

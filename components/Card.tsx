@@ -33,7 +33,7 @@ const Card: React.FC<cardInfo> = ({ icon, title, text }) => {
       </div>
 
       <div className={vietnam.className}>
-        <p className="text-medium sm:text-lg text-center px-0 sm:px-4 font-light text-[#67708C]">
+        <p className="text-medium sm:text-lg text-center md:text-wrap px-0 sm:px-4 md:px-0 font-light text-[#67708C]">
           {text}
         </p>
       </div>

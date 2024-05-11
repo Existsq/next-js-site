@@ -50,28 +50,17 @@ export default function Home() {
                   </button>
                 </div>
                 <div className={poppins.className}>
-                  <p className="text-[#02015A] text-5xl sm:text-5xl leading-2 md:text-5xl lg:text-6xl xl:text-7xl font-medium px-10 sm:px-10 text-center tracking-tight">
-                    Boost your hiring <br className="block sm:hidden"></br>{" "}
-                    process <br className="hidden sm:hidden lg:block"></br> with
-                    AI
-                    <br className="block sm:hidden"></br> solution
+                  <p className="text-[#02015A] text-5xl sm:text-5xl lg:px-40 leading-2 md:text-6xl lg:text-6xl xl:text-7xl font-medium px-10 sm:px-10 md:px-28 text-center tracking-tight">
+                    Boost your hiring process with AI solution
                   </p>
                 </div>
               </div>
 
               <div>
                 <div className={vietnam.className}>
-                  <p className="px-auto text-center text-md sm:text-lg md:text-lg lg:text-md xl:text-xl font-light text-[#4E5774]">
-                    Hirevision is used by numerous businesses, institutions,{" "}
-                    <br className="block sm:hidden lg:hidden xl:hidden"></br>{" "}
-                    and <br className="hidden lg:hidden xl:block"></br>{" "}
-                    recruiters{" "}
-                    <br className="hidden sm:block md:hidden lg:hidden xl:hidden"></br>{" "}
-                    to significantly{" "}
-                    <br className="hidden md:block lg:hidden xl:hidden"></br>{" "}
-                    enhance their{" "}
-                    <br className="hidden lg:block xl:hidden"></br> screening{" "}
-                    <br className="block sm:hidden xl:block"></br> and
+                  <p className="px-16 text-center text-md sm:text-lg md:text-lg lg:text-md xl:text-xl lg:px-40 md:px-28 font-light text-[#4E5774]">
+                    Hirevision is used by numerous businesses, institutions, and
+                    recruiters to significantly enhance their screening and
                     recruitment procedures.
                   </p>
                 </div>
@@ -101,7 +90,7 @@ export default function Home() {
 
         <section className="flex flex-col gap-2 lg:gap-6 items-center justify-center pt-16">
           <div className={vietnam.className}>
-            <p className="text-lg lg:text-xl text-center font-light text-[#67708C]">
+            <p className="text-lg lg:text-2xl text-center font-light text-[#67708C]">
               Already chosen by the world leaders
             </p>
           </div>
@@ -118,25 +107,23 @@ export default function Home() {
               </p>
             </div>
             <div className={poppins.className}>
-              <p className="text-[#02015A] text-4xl lg:text-6xl text-center font-medium">
-                Easy implementation in <br className="lg:block"></br> three easy
-                steps
+              <p className="text-[#02015A] text-4xl px-4 md:px-10 lg:text-6xl text-center font-medium">
+                Easy implementation in three easy steps
               </p>
             </div>
             <div>
               <div className={vietnam.className}>
-                <p className="text-medium text-center font-light px-4 text-[#67708C]">
+                <p className="text-medium text-center font-light px-12 md:px-28 lg:px-28 lg:text-xl text-[#67708C] sm:px-16">
                   Cutting-edge, user-friendly AI tool and growth analytics
-                  designed to boost user <br className="hidden xl:block"></br>{" "}
-                  conversion, engagement, and retention.
+                  designed to boost user conversion, engagement, and retention.
                 </p>
               </div>
             </div>
           </div>
         </div>
 
-        <section className="flex justify-center items-center">
-          <div className="flex-col lg:flex lg:flex-row justify-between items-center space-y-10 lg:gap-6 py-10 px-6 lg:py-20 lg:px-40">
+        <section className="flex justify-center items-center px-6 sm:px-10 lg:px-12 xl:px-28">
+          <div className="flex-col lg:flex lg:flex-row justify-between items-center space-y-10 py-10 lg:gap-4 lg:py-12 lg:px-0 lg:min-w-full">
             <div className="flex flex-col gap-4 lg:gap-6 items-start justify-start">
               <div className={vietnam.className}>
                 <div className="flex justify-start py-[0.42rem] w-fit px-4 bg-[#F3F7FB] rounded-full">
@@ -146,53 +133,50 @@ export default function Home() {
                 </div>
               </div>
               <div className={poppins.className}>
-                <p className="text-[#02015A] text-4xl lg:text-5xl font-medium leading-none lg:leading-[3.5rem]">
+                <p className="text-[#02015A] text-4xl lg:text-5xl font-medium leading-none lg:leading-[3.5rem] lg:pr-10">
                   Automated Candidate Ranking
                 </p>
               </div>
               <div className={vietnam.className}>
-                <p className="text-lg text-start font-light text-[#67708C]">
+                <p className="text-lg text-start font-light md:text-wrap md:pr-28 lg:pr-0 text-[#67708C]">
                   Let AI analyze and rank applicants based on qualifications,
-                  <br className=" hidden lg:block"></br>
                   experience, and skills, ensuring you focus on the most
-                  promising
-                  <br className=" hidden lg:block"></br>
-                  candidates first.
+                  promising candidates first.
                 </p>
               </div>
 
               <div className="flex w-full">
-                <button className="flex flex-row flex-shrink-0 border-[1px] border-[#573CFF] h-[49px] w-full sm:w-fit justify-center font-base lg:flex transition-all items-center text-[#573CFF] hover:bg-[#573CFF] hover:text-white bg-none rounded-lg py-[0.75rem] px-6 duration-300 gap-2 hover:gap-4">
+                <button className="flex md:h-[59px] md:text-lg md:w-full lg:h-[49px] lg:w-fit flex-row flex-shrink-0 border-[1px] border-[#573CFF] h-[49px] w-full sm:w-fit justify-center font-base lg:flex transition-all items-center text-[#573CFF] hover:bg-[#573CFF] hover:text-white bg-none rounded-lg py-[0.75rem] px-6 duration-300 gap-2 hover:gap-4">
                   Request Demo
                   <MdOutlineArrowOutward size={23} />
                 </button>
               </div>
             </div>
 
-            <div>
+            <div className="md:flex md:justify-center md:items-center">
               <Image
                 src="/section.jpg"
                 alt="image"
                 width={520}
                 height={360}
-                className="scale-75 lg:scale-100"
+                className="scale-75 lg:scale-100 lg:min-w-[500px]"
               ></Image>
             </div>
           </div>
         </section>
 
-        <div className="flex flex-col lg:flex lg:flex-row justify-center items-center pb-4 lg:py-20">
+        <div className="flex flex-col lg:flex lg:flex-row justify-center lg:justify-between items-center px-6 sm:px-10 lg:py-12 lg:min-w-full ">
           <div>
             <Image
               src="/section2.jpg"
               alt="image"
               width={520}
               height={360}
-              className="hidden lg:block"
+              className="hidden lg:block lg:min-w-[500px]"
             ></Image>
           </div>
 
-          <div className="flex flex-col justify-items-start gap-6 px-4 lg:px-0">
+          <div className="flex flex-col justify-items-start gap-6 lg:px-0 xl:px-28">
             <div className={vietnam.className}>
               <div className="flex w-fit items-center py-[0.42rem] px-4 bg-[#F3F7FB] rounded-full">
                 <p className="text-xs font-semibold bg-gradient-to-r from-[#6E8CFE] to-[#A060E9] inline-block text-transparent bg-clip-text">
@@ -209,16 +193,14 @@ export default function Home() {
             </div>
 
             <div className={vietnam.className}>
-              <p className="text-lg text-start font-light text-[#67708C]">
+              <p className="text-lg text-start font-light text-[#67708C] md:pr-28 lg:pr-0">
                 Let AI analyze and rank applicants based on qualifications,
-                <br className=" hidden lg:block"></br>
                 experience, and skills, ensuring you focus on the most promising
-                <br className=" hidden lg:block"></br>
                 candidates first.
               </p>
             </div>
             <div className="flex w-full">
-              <button className="flex flex-row flex-shrink-0 border-[1px] border-[#573CFF] h-[49px] w-full sm:w-fit justify-center font-base lg:flex transition-all items-center text-[#573CFF] hover:bg-[#573CFF] hover:text-white bg-none rounded-lg py-[0.75rem] px-6 duration-300 gap-2 hover:gap-4">
+              <button className="flex md:h-[59px] lg:h-[49px] lg:w-fit md:text-lg md:w-full flex-row flex-shrink-0 border-[1px] border-[#573CFF] h-[49px] w-full sm:w-fit justify-center font-base lg:flex transition-all items-center text-[#573CFF] hover:bg-[#573CFF] hover:text-white bg-none rounded-lg py-[0.75rem] px-6 duration-300 gap-2 hover:gap-4">
                 Request Demo
                 <MdOutlineArrowOutward size={23} />
               </button>
@@ -236,8 +218,8 @@ export default function Home() {
           </div>
         </div>
 
-        <section className="flex justify-center items-center">
-          <div className="flex flex-col lg:flex lg:flex-row justify-between items-center pt-10 lg:py-20 px-4 lg:px-40">
+        <section className="flex justify-center items-center px-6 sm:px-10 lg:px-10 lg:py-0 xl:px-28">
+          <div className="flex flex-col lg:flex lg:flex-row justify-between items-start pt-10">
             <div className="flex flex-col gap-6 items-start justify-start">
               <div className={vietnam.className}>
                 <div className="flex justify-start py-[0.42rem] px-4 bg-[#F3F7FB] rounded-full">
@@ -252,17 +234,14 @@ export default function Home() {
                 </p>
               </div>
               <div className={vietnam.className}>
-                <p className="text-lg text-start font-light text-[#67708C]">
+                <p className="text-lg text-start font-light text-[#67708C] md:pr-28 lg:pr-0">
                   Let AI analyze and rank applicants based on qualifications,
-                  <br className=" hidden lg:block"></br>
                   experience, and skills, ensuring you focus on the most
-                  promising
-                  <br className=" hidden lg:block"></br>
-                  candidates first.
+                  promising candidates first.
                 </p>
               </div>
               <div className="flex w-full">
-                <button className="flex flex-row flex-shrink-0 border-[1px] border-[#573CFF] h-[49px] w-full sm:w-fit justify-center font-base lg:flex transition-all items-center text-[#573CFF] hover:bg-[#573CFF] hover:text-white bg-none rounded-lg py-[0.75rem] px-6 duration-300 gap-2 hover:gap-4">
+                <button className="flex md:h-[59px] lg:h-[49px] lg:w-fit md:text-lg md:w-full flex-row flex-shrink-0 border-[1px] border-[#573CFF] h-[49px] w-full sm:w-fit justify-center font-base lg:flex transition-all items-center text-[#573CFF] hover:bg-[#573CFF] hover:text-white bg-none rounded-lg py-[0.75rem] px-6 duration-300 gap-2 hover:gap-4">
                   Request Demo
                   <MdOutlineArrowOutward size={23} />
                 </button>
@@ -275,13 +254,13 @@ export default function Home() {
                 alt="image"
                 width={520}
                 height={360}
-                className="scale-75 lg:scale-100"
+                className="scale-75 lg:scale-100 lg:min-w-[500px]"
               ></Image>
             </div>
           </div>
         </section>
 
-        <div className="flex flex-col gap-6 items-center justify-center py-4 lg:py-16 px-4">
+        <div className="flex flex-col gap-6 items-center justify-center py-4 lg:py-16 px-6">
           <div className={vietnam.className}>
             <div className="flex justify-start py-[0.42rem] px-4 bg-[#F3F7FB] rounded-full">
               <p className="text-xs font-semibold bg-gradient-to-r from-[#6E8CFE] to-[#A060E9] inline-block text-transparent bg-clip-text">
@@ -292,19 +271,18 @@ export default function Home() {
 
           <div className={poppins.className}>
             <p className="text-[#02015A] text-4xl lg:text-5xl text-center font-medium leading-none lg:leading-[3.5rem]">
-              Powerful features <br className=" hidden lg:block"></br> tailored
-              to your needs
+              Powerful features tailored to your needs
             </p>
           </div>
           <div className={vietnam.className}>
-            <p className="text-medium lg:text-lg text-center font-light text-[#67708C]">
+            <p className="text-lg lg:text-lg text-center font-light text-[#67708C] px-10">
               Gain valuable data-driven insights into talent markets worldwide.
             </p>
           </div>
         </div>
 
         <section className="flex items-center justify-center">
-          <div className="grid grid-col-1 sm:grid-cols-2 md:grid-cols-3 gap-2 md:gap-6 px-10 text-balance md:px-40 pb-10 lg:pb-10 max-w-fit">
+          <div className="grid grid-col-1 sm:grid-cols-2 sm:gap-2 sm:px-4 md:grid-cols-3 lg:gap-10 lg:px-20 gap-2 md:gap-10 px-10 text-balance md:px-12 pb-10 lg:pb-10 max-w-fit">
             <div>
               <Card
                 icon="/person.svg"
@@ -354,37 +332,39 @@ export default function Home() {
           </div>
         </section>
 
-        <div className="flex justify-center">
-          <section className="flex justify-center items-between px-4 lg:px-20 xl:px-20 pt-2 lg:pt-10 lg:pb-28 pb-2 xl:max-w-7xl">
-            <div className="flex flex-col lg:flex lg:flex-row justify-center gap-10 lg:max-h-[400px] max-w-fit lg:justify-between flex-shrink-0 items-center bg-gradient-to-br from-[#573CFF] to-[#3777FF] rounded-3xl px-10 py-10 lg:px-20 xl:px-20 lg:py-16 ">
-              <div className="flex flex-col justify-start gap-6 lg:pr-28 xl:pr-40">
-                <div className={poppins.className}>
-                  <p className="text-white text-4xl lg:text-5xl font-sm lg:font-medium leading-2 lg:leading-[3.5rem]">
-                    Make a lasting impression with Hirevision
-                  </p>
-                </div>
-                <div className={vietnam.className}>
-                  <p className="text-lg font-light text-white">
-                    Discover why hiring managers prefer Hirevision over the
-                    competition and what makes it the easiest, most powerful
-                    video interviewing platform on the market
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex min-w-full lg:min-w-fit">
-                <button className="h-[49px] flex flex-row w-full lg:w-full justify-center font-base lg:flex transition-all items-center text-[#4662FE] bg-white bg-none rounded-lg py-[0.75rem] px-4 duration-300 hover:opacity-90 gap-2 hover:gap-4">
-                  <div className={vietnam.className}>
-                    <p>Duplicate in Framer</p>
+        <section className="flex justify-center items-center">
+          <div className="flex justify-center md:max-w-[990px] lg:max-w-[1400px] xl:max-w-[1700px]">
+            <div className="flex justify-center items-center px-4 lg:px-20  sm:px-10 pt-20 pb-28 ">
+              <div className="flex flex-col lg:flex lg:flex-row justify-center gap-10 lg:max-h-[400px] lg:max-w-[900px] xl:max-w-[1200px] lg:min-h-[400px] lg:gap-10 lg:py-10 max-w-fit lg:px-10 lg:justify-between flex-shrink-0 items-center bg-gradient-to-br from-[#573CFF] to-[#3777FF] rounded-3xl px-10 py-10 md:px-16 md:py-16 xl:px-20">
+                <div className="flex flex-col justify-start gap-6 md:pr-10 lg:pr-0 xl:pr-20 ">
+                  <div className={poppins.className}>
+                    <p className="text-white text-4xl md:text-6xl lg:text-5xl font-sm lg:font-medium leading-2 lg:leading-[3.5rem]">
+                      Make a lasting impression with Hirevision
+                    </p>
                   </div>
-                  <MdOutlineArrowOutward size={23} />
-                </button>
+                  <div className={vietnam.className}>
+                    <p className="text-lg md:text-xl md:font-base font-light text-white">
+                      Discover why hiring managers prefer Hirevision over the
+                      competition and what makes it the easiest, most powerful
+                      video interviewing platform on the market
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex min-w-full lg:min-w-fit">
+                  <button className="h-[49px] md:h-[59px] flex flex-row w-full md:text-xl lg:w-full justify-center font-base lg:flex transition-all items-center text-[#4662FE] bg-white bg-none rounded-lg py-[0.75rem] px-4 duration-300 hover:opacity-90 gap-2 hover:gap-4">
+                    <div className={vietnam.className}>
+                      <p>Duplicate in Framer</p>
+                    </div>
+                    <MdOutlineArrowOutward size={23} />
+                  </button>
+                </div>
               </div>
             </div>
-          </section>
-        </div>
+          </div>
+        </section>
 
-        <section className="hidden lg:flex flex-col justify-center items-center space-y-10 lg:pb-20">
+        <section className="hidden lg:flex sm:flex flex-col justify-center items-center space-y-10 sm:pb-20 lg:pb-20">
           <div>
             <div className="flex justify-center items-center mb-4">
               <div className="flex flex-row justify-center items-center w-fit py-[0.42rem] px-4 bg-[#F3F7FB] rounded-full">
@@ -394,18 +374,20 @@ export default function Home() {
               </div>
             </div>
             <div className={vietnam.className}>
-              <p className="text-[#02015A] lg:text-3xl text-center font-medium leading-none lg:leading-[3.5rem]">
+              <p className="text-[#02015A] md:text-3xl sm:text-2xl lg:text-5xl text-center font-medium leading-none lg:leading-[3.5rem]">
                 Numbers speaking for themselves
               </p>
             </div>
           </div>
 
-          <div className="flex flex-row gap-16">
+          <div className="flex flex-row sm:gap-8 gap-16">
             <div className="flex flex-col justify-center gap-2 items-center">
               <div className={vietnam.className}>
-                <p className="text-7xl font-medium text-[#573CFF]">75%</p>
+                <p className="sm:text-5xl md:text-6xl text-7xl font-medium text-[#573CFF]">
+                  75%
+                </p>
               </div>
-              <p className="text-xl text-center font-base text-[#67708C]">
+              <p className="sm:text-sm md:text-lg text-xl text-center font-base text-[#67708C]">
                 Candidate match role
               </p>
             </div>
@@ -414,9 +396,11 @@ export default function Home() {
 
             <div className="flex flex-col justify-center gap-2 items-center">
               <div className={vietnam.className}>
-                <p className="text-7xl font-medium text-[#573CFF]">4,000+</p>
+                <p className="sm:text-5xl md:text-6xl text-7xl font-medium text-[#573CFF]">
+                  4,000+
+                </p>
               </div>
-              <p className="text-xl text-center font-base text-[#67708C]">
+              <p className="sm:text-sm md:text-lg text-xl text-center font-base text-[#67708C]">
                 Successful placement
               </p>
             </div>
@@ -425,16 +409,18 @@ export default function Home() {
 
             <div className="flex flex-col justify-center gap-2 items-center">
               <div className={vietnam.className}>
-                <p className="text-7xl font-medium text-[#573CFF]">50+</p>
+                <p className="sm:text-5xl md:text-6xl text-7xl font-medium text-[#573CFF]">
+                  50+
+                </p>
               </div>
-              <p className="text-xl text-center font-normal text-[#67708C]">
+              <p className="sm:text-sm md:text-lg text-xl text-center font-normal text-[#67708C]">
                 Operating countries
               </p>
             </div>
           </div>
         </section>
 
-        <section className="lg:hidden flex flex-col justify-center items-center space-y-8 py-16">
+        <section className="lg:hidden sm:hidden flex flex-col justify-center items-center space-y-8 py-16">
           <div>
             <div className="flex justify-center items-center mb-4">
               <div className="flex flex-row justify-center items-center w-fit py-[0.42rem] px-4 bg-[#F3F7FB] rounded-full">
@@ -444,7 +430,7 @@ export default function Home() {
               </div>
             </div>
             <div className={vietnam.className}>
-              <p className="text-[#02015A] text-2xl lg:text-5xl text-center font-medium leading-none lg:leading-[3.5rem]">
+              <p className="text-[#02015A] text-2xl text-center font-medium leading-none lg:leading-[3.5rem]">
                 Numbers speaking for themselves
               </p>
             </div>
@@ -523,7 +509,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="hidden lg:flex lg:flex-row lg:items-center lg:gap-2">
+          <div className="hidden lg:flex lg:flex-row lg:items-start lg:gap-2">
             <div className="flex flex-col justify-start items-center">
               <ReviewCard
                 text="We struggled to find the right talent globally, but with their automated candidate ranking, we quickly identified top-notch candidates who perfectly fit our requirements."
@@ -542,7 +528,7 @@ export default function Home() {
               />
             </div>
 
-            <div className="flex flex-col justify-center items-center">
+            <div>
               <ReviewCard
                 text="The platform's emphasis on diversity and inclusion impressed me, helping us create a more inclusive workforce."
                 avatar="/avatar.jpg"
@@ -552,7 +538,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex justify-center items-center pt-2 lg:pt-8">
-            <button className="flex flex-row flex-shrink-0 border-[1px] border-[#573CFF] h-[49px] w-fit justify-center font-base lg:flex transition-all items-center text-[#573CFF] hover:bg-[#573CFF] hover:text-white bg-none rounded-lg py-[0.75rem] px-6 duration-300 gap-2 hover:gap-4">
+            <button className="flex flex-row md:h-[59px] md:text-lg flex-shrink-0 border-[1px] border-[#573CFF] h-[49px] w-fit justify-center font-base lg:flex transition-all items-center text-[#573CFF] hover:bg-[#573CFF] hover:text-white bg-none rounded-lg py-[0.75rem] px-6 duration-300 gap-2 hover:gap-4">
               More stories
               <MdOutlineArrowOutward size={23} />
             </button>
@@ -571,13 +557,13 @@ export default function Home() {
               </div>
             </div>
             <div className={poppins.className}>
-              <p className="text-[#02015A] text-4xl px-10 lg:px-16 lg:text-6xl text-center font-medium leading-none lg:leading-[3.5rem]">
+              <p className="text-[#02015A] md:text-5xl text-4xl px-10 lg:px-16 lg:text-6xl text-center font-medium leading-none lg:leading-[3.5rem]">
                 We&apos;ve got you covered
               </p>
             </div>
           </div>
 
-          <div>
+          <div className="w-full max-w-[550px] px-2 sm:px-10 sm:max-w-[680px] md:px-10 md:max-w-[850px] lg:px-20 lg:max-w-[1000px]">
             <FAQ />
           </div>
         </section>
@@ -594,13 +580,13 @@ export default function Home() {
               </div>
             </div>
             <div className={poppins.className}>
-              <p className="text-[#02015A] text-4xl px-10 lg:text-5xl text-center font-medium leading-none lg:leading-[3.5rem]">
+              <p className="text-[#02015A] md:text-5xl text-4xl px-10 lg:text-5xl text-center font-medium leading-none lg:leading-[3.5rem]">
                 From our Blog
               </p>
             </div>
           </div>
 
-          <div className="flex flex-col lg:flex-row justify-center items-center lg:items-start xl:gap-0 gap-10 pt-8 lg:pt-16">
+          <div className="flex flex-col lg:flex-col justify-center items-center xl:gap-16 lg:items-center gap-10 pt-8 lg:pt-16">
             <BlogCard
               title="What is CAC and how do I calculate it?"
               tag="ARTICLES"
@@ -621,42 +607,44 @@ export default function Home() {
           </div>
 
           <div className="flex justify-center items-center pt-10 lg:pt-12">
-            <button className="flex flex-row flex-shrink-0 border-[1px] border-[#573CFF] h-[49px] w-fit justify-center font-base lg:flex transition-all items-center text-[#573CFF] hover:bg-[#573CFF] hover:text-white bg-none rounded-lg py-[0.75rem] px-6 duration-300 gap-2 hover:gap-4">
+            <button className="flex flex-row flex-shrink-0 border-[1px] border-[#573CFF] h-[49px] md:h-[59px] md:text-lg w-fit justify-center font-base lg:flex transition-all items-center text-[#573CFF] hover:bg-[#573CFF] hover:text-white bg-none rounded-lg py-[0.75rem] px-6 duration-300 gap-2 hover:gap-4">
               More stories
               <MdOutlineArrowOutward size={23} />
             </button>
           </div>
         </section>
 
-        <div className="flex justify-center">
-          <section className="flex justify-center items-between px-4 lg:px-20 xl:px-20 pt-20 pb-28 xl:max-w-7xl">
-            <div className="flex flex-col lg:flex lg:flex-row justify-center gap-10 lg:max-h-[400px] max-w-fit lg:justify-between flex-shrink-0 items-center bg-gradient-to-br from-[#573CFF] to-[#3777FF] rounded-3xl px-10 py-10 lg:px-20 xl:px-20 lg:py-16 ">
-              <div className="flex flex-col justify-start gap-6 lg:pr-28 xl:pr-40">
-                <div className={poppins.className}>
-                  <p className="text-white text-4xl lg:text-5xl font-sm lg:font-medium leading-2 lg:leading-[3.5rem]">
-                    Make a lasting impression with Hirevision
-                  </p>
-                </div>
-                <div className={vietnam.className}>
-                  <p className="text-lg font-light text-white">
-                    Discover why hiring managers prefer Hirevision over the
-                    competition and what makes it the easiest, most powerful
-                    video interviewing platform on the market
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex min-w-full lg:min-w-fit">
-                <button className="h-[49px] flex flex-row w-full lg:w-full justify-center font-base lg:flex transition-all items-center text-[#4662FE] bg-white bg-none rounded-lg py-[0.75rem] px-4 duration-300 hover:opacity-90 gap-2 hover:gap-4">
-                  <div className={vietnam.className}>
-                    <p>Duplicate in Framer</p>
+        <section className="flex justify-center items-center">
+          <div className="flex justify-center md:max-w-[990px] lg:max-w-[1400px] xl:max-w-[1700px]">
+            <div className="flex justify-center items-center px-4 lg:px-20  sm:px-10 pt-20 pb-28 ">
+              <div className="flex flex-col lg:flex lg:flex-row justify-center gap-10 lg:max-h-[400px] lg:max-w-[900px] xl:max-w-[1200px] lg:min-h-[400px] lg:gap-10 lg:py-10 max-w-fit lg:px-10 lg:justify-between flex-shrink-0 items-center bg-gradient-to-br from-[#573CFF] to-[#3777FF] rounded-3xl px-10 py-10 md:px-16 md:py-16 xl:px-20">
+                <div className="flex flex-col justify-start gap-6 md:pr-10 lg:pr-0 xl:pr-20 ">
+                  <div className={poppins.className}>
+                    <p className="text-white text-4xl md:text-6xl lg:text-5xl font-sm lg:font-medium leading-2 lg:leading-[3.5rem]">
+                      Make a lasting impression with Hirevision
+                    </p>
                   </div>
-                  <MdOutlineArrowOutward size={23} />
-                </button>
+                  <div className={vietnam.className}>
+                    <p className="text-lg md:text-xl md:font-base font-light text-white">
+                      Discover why hiring managers prefer Hirevision over the
+                      competition and what makes it the easiest, most powerful
+                      video interviewing platform on the market
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex min-w-full lg:min-w-fit">
+                  <button className="h-[49px] md:h-[59px] flex flex-row w-full md:text-xl lg:w-full justify-center font-base lg:flex transition-all items-center text-[#4662FE] bg-white bg-none rounded-lg py-[0.75rem] px-4 duration-300 hover:opacity-90 gap-2 hover:gap-4">
+                    <div className={vietnam.className}>
+                      <p>Duplicate in Framer</p>
+                    </div>
+                    <MdOutlineArrowOutward size={23} />
+                  </button>
+                </div>
               </div>
             </div>
-          </section>
-        </div>
+          </div>
+        </section>
 
         <section>
           <Footer />

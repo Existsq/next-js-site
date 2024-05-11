@@ -297,12 +297,12 @@ function Footer() {
           </div>
         </div>
 
-        <div className="flex w-full justify-between items-center pb-6 text-sm font-normal text-[#787F98] opacity-70">
+        <div className="flex w-full justify-between items-center gap-2 pb-6 text-sm font-normal text-center text-[#787F98] opacity-70">
           <div>
             <p>Hirevision • Copyright © 2023</p>
           </div>
 
-          <div className="flex justify-center items-center gap-2">
+          <div className="flex justify-center items-center gap-2 text-center">
             <div>
               <Link
                 href="/"
