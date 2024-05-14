@@ -1,6 +1,5 @@
-This is next.js simple site created by me.
-
-**How to install:**
+# This is next.js simple site created by me
+### How to install:
 ```
   1) Clone this repo locally
   2) Run npm install
