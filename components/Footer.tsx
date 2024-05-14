@@ -19,17 +19,6 @@ function Footer() {
     <main className="xl:flex xl:justify-center xl:items-center xl:px-auto">
       <div className="hidden lg:flex lg:flex-col gap-16 lg:px-16">
         <div className="md:flex md:flex-row items-start md:justify-between xl:flex xl:justify-between md:px-0 text-md font-medium gap-20 xl:gap-40">
-          <div className="flex flex-col items-center justify-center gap-3">
-            <Image src="/logo.svg" alt="logo" width={200} height={50} />
-            <div className="max-w-[300px] items-center text-center">
-              <div className={vietnam.className}>
-                <p className="text-[#787F98] font-light">
-                  Significantly enhance your screening and recruitment
-                  procedures.
-                </p>
-              </div>
-            </div>
-          </div>
           <section className="flex flex-col justify-items-start items-start text-4xl font-medium gap-5">
             <div className={poppins.className}>
               <Link
@@ -142,6 +131,18 @@ function Footer() {
                     Contact Us
                   </Link>
                 </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center justify-center gap-3">
+            <Image src="/logo.svg" alt="logo" width={200} height={50} />
+            <div className="max-w-[300px] items-center text-center">
+              <div className={vietnam.className}>
+                <p className="text-[#787F98] font-light">
+                  Significantly enhance your screening and recruitment
+                  procedures.
+                </p>
               </div>
             </div>
           </div>
